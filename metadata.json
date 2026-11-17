@@ -1,0 +1,6 @@
+{
+  "name": "VirusTotal IOC Analyzer",
+  "description": "SOC-grade IOC extractor and reputation analyzer powered by the VirusTotal v3 API. Detect malicious IPs, domains, URLs, and file hashes from logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
