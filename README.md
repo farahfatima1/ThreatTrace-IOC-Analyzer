@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ThreatTrace – IOC Analyzer
 
-# Run and deploy your AI Studio app
+A rule-based cybersecurity tool that extracts and analyzes Indicators of Compromise (IOCs) from log and text files.
 
-This contains everything you need to run your app locally.
+## Features
+- Extract IP addresses, domains, and URLs.
+- Detect MD5 and SHA-256 hashes.
+- Classify indicators as Suspicious, Needs Review, or Low Risk.
+- Export results to CSV.
+- Local processing without an API key.
 
-View your app in AI Studio: https://ai.studio/apps/20207601-0e32-4586-9b3b-ee8c930cc393
+## Technologies
+- React
+- TypeScript
+- Node.js
+- Express
+- Vite
 
-## Run Locally
+## Installation
 
-**Prerequisites:**  Node.js
+```bash
+git clone https://github.com/farahfatima1/ThreatTrace-IOC-Analyzer.git
+cd ThreatTrace-IOC-Analyzer
+npm install
+npm run dev
+```
 
+Open `http://localhost:3000` in your browser.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Note
+ThreatTrace uses local detection rules. It does not currently perform live VirusTotal lookups or confirm malicious activity.
+
+## Author
+**Farah Fatima**
+
+GitHub: [farahfatima1](https://github.com/farahfatima1)
